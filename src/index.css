@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-100 bg-gray-900 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium leading-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-cyan-600 hover:bg-cyan-700 text-white focus:ring-cyan-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-cyan-600 text-cyan-400 hover:bg-cyan-900/30 focus:ring-cyan-500;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .card {
+    @apply bg-gray-800/70 backdrop-blur-sm rounded-lg p-6 border border-gray-700 hover:border-cyan-800 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-lg hover:shadow-cyan-900/20 transform hover:-translate-y-1;
+  }
+  
+  .wave-bg {
+    background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' id='svg' viewBox='0 0 1440 400' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'%3E%3Cpath d='M 0,400 C 0,400 0,200 0,200 C 114.35714285714289,165.89285714285714 228.71428571428578,131.78571428571428 351,149 C 473.2857142857142,166.21428571428572 603.4999999999999,234.75 713,246 C 822.5000000000001,257.25 911.2857142857142,211.21428571428572 1029,192 C 1146.7142857142858,172.78571428571428 1293.357142857143,180.39285714285714 1440,188 C 1440,188 1440,400 1440,400 Z' stroke='none' stroke-width='0' fill='%230e7490' fill-opacity='0.1'%3E%3C/path%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
