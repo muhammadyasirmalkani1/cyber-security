@@ -45,7 +45,7 @@ const ContactPage = () => {
         subtitle="Get in touch with our security experts"
         description="Have questions about our services or want to schedule a consultation? Contact us today and our team will be happy to assist you."
         ctaText="Call Us Now"
-        ctaLink="tel:+18005559876"
+        ctaLink="tel:+923354883737"
       />
 
       {/* Contact Form Section */}

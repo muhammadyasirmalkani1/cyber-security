@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Shield, Lock, Eye, UserCheck, FileText, Database, Server, AlertTriangle } from 'lucide-react';
 import HeroSection from '../components/sections/HeroSection';
 import ServiceCard from '../components/cards/ServiceCard';

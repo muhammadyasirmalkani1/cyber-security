@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Eye, UserCheck, Lock, Shield, AlertTriangle, FileText, Database, Server, CheckCircle } from 'lucide-react';
 import HeroSection from '../components/sections/HeroSection';

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import HeroSection from '../components/sections/HeroSection';
 import IndustryCard from '../components/cards/IndustryCard';
 import CTASection from '../components/sections/CTASection';

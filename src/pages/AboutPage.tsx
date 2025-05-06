@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Shield, Award, Users, TrendingUp } from 'lucide-react';
 import HeroSection from '../components/sections/HeroSection';
 import CTASection from '../components/sections/CTASection';
