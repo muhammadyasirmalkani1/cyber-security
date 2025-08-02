@@ -115,7 +115,7 @@ const HomePage = () => {
       <HeroSection
         title="Cyber Security Service"
         subtitle="Protecting your digital assets with advanced threat detection and prevention"
-        description="We are U.S. based cybersecurity company service and managing. Cyber risk on the behalf of our valued distribution and technology partners."
+        description="We are a U.S. based cybersecurity company service and managing cyber risk on the behalf of our valued distribution and technology partners."
         ctaText="Get Started Now"
         ctaLink="/contact"
       />
