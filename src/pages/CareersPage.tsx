@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import CareersPage from './pages/CareersPage';
+import CareersPage from '/CareersPage';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Shield, Lock, Eye, Database, FileText, Server, UserCheck } from 'lucide-react';
-import HeroSection from '../components/sections/HeroSection';
+import HeroSection from '../ Familycomponents/sections/HeroSection';
 import ServiceCard from '../components/cards/ServiceCard';
 import ComplianceCard from '../components/cards/ComplianceCard';
 import IndustryCard from '../components/cards/IndustryCard';
