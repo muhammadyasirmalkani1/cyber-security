@@ -43,7 +43,7 @@ const AboutPage = () => {
     {
       name: 'Sarah Johnson',
       title: 'Chief Executive Officer',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
       bio: 'Sarah brings over 20 years of cybersecurity leadership experience, having previously led security operations for major financial institutions and government agencies.'
     },
     {
