@@ -14,6 +14,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ServiceDetailPage from './pages/ServiceDetailPage';
 import IndustryDetailPage from './pages/IndustryDetailPage';
+import CareersPage from './pages/CareersPage';
 
 function App() {
   return (
