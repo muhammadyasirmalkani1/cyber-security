@@ -259,4 +259,4 @@ const CareersPage = () => {
   );
 };
 
-export default AboutPage;
+export default CareersPage;
