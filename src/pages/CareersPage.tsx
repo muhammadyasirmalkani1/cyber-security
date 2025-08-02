@@ -15,57 +15,6 @@ const CareersPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const statistics = [
-    { label: 'Years of Experience', value: '15+' },
-    { label: 'Security Experts', value: '100+' },
-    { label: 'Clients Protected', value: '500+' },
-    { label: 'Threats Prevented', value: '10K+' }
-  ];
-
-  const values = [
-    {
-      icon: <Shield className="w-12 h-12 text-cyan-500" />,
-      title: 'Integrity',
-      description: 'We maintain the highest ethical standards in all of our operations, putting client trust and security above all else.'
-    },
-    {
-      icon: <Award className="w-12 h-12 text-cyan-500" />,
-      title: 'Excellence',
-      description: 'We strive for excellence in every aspect of our work, constantly improving our services and solutions.'
-    },
-    {
-      icon: <Users className="w-12 h-12 text-cyan-500" />,
-      title: 'Partnership',
-      description: 'We work as true partners with our clients, understanding their unique needs and delivering tailored solutions.'
-    },
-    {
-      icon: <TrendingUp className="w-12 h-12 text-cyan-500" />,
-      title: 'Innovation',
-      description: 'We continuously evolve our security strategies and solutions to stay ahead of emerging threats.'
-    }
-  ];
-
-  const leadership = [
-    {
-      name: 'Sarah Johnson',
-      title: 'Chief Executive Officer',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Sarah brings over 20 years of cybersecurity leadership experience, having previously led security operations for major financial institutions and government agencies.'
-    },
-    {
-      name: 'Michael Chen',
-      title: 'Chief Technology Officer',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Michael has pioneered advanced threat detection methodologies and holds multiple patents in cybersecurity technology. He leads our research and development initiatives.'
-    },
-    {
-      name: 'Emily Rodriguez',
-      title: 'Chief Security Officer',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      bio: 'Emily has extensive experience in risk management and compliance, helping organizations navigate complex regulatory requirements and build effective security programs.'
-    }
-  ];
-
   return (
     <div className="pt-16">
       {/* Hero Section */}
