@@ -30,7 +30,6 @@ function App() {
             <Route path="/industries/:industryId" element={<IndustryDetailPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/careers" element={<CareersPage />} />
           </Routes>
         </main>
         <Footer />
